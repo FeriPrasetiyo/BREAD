@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      http-equiv="X-UA-Compatible"
+      content="IE=edge"
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <link
+      href="/css/style.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <title>Tambah Data</title>
+  </head>
+  <body>
+    <div
+      class="container"
+      style="padding: 20px"
+    >
+      <form
+        action=""
+        method="post"
+      >
+        <h1>Add Data</h1>
+        <!-- String -->
+        <div class="row">
+          <div class="label">
+            <label for="string">String</label>
+          </div>
+          <div class="input">
+            <input
+              type="text"
+              name="string"
+              placeholder="Tulis String"
+              required
+            />
+          </div>
+        </div>
+        <!-- Tutup String -->
+        <!-- Mulai Integer -->
+        <div class="row">
+          <div class="label">
+            <label for="integer">Integer</label>
+          </div>
+          <div clasinput">
+            <input
+              type="number"
+              name="integer"
+              placeholder="Tulis Integer"
+              required
+            />
+          </div>
+        </div>
+        <!-- Tutup integer -->
+        <!-- Mulai float -->
+        <div class="row">
+          <div class="label">
+            <label for="string">Float</label>
+          </div>
+          <div clasinput">
+            <input
+              type="number"
+              name="float"
+              placeholder="Tulis Float"
+              required
+              step="0.005"
+            />
+          </div>
+        </div>
+        <!-- Tutup float -->
+        <!-- Date -->
+        <div class="row">
+          <div class="label">
+            <label for="date">Date</label>
+          </div>
+          <div clasinput">
+            <input
+              type="date"
+              name="date"
+              placeholder="Tulis Date"
+              required
+            />
+          </div>
+        </div>
+        <!-- Tutup Date -->
+        <!-- Mulai boolean -->
+        <div class="row">
+          <div class="label">
+            <label for="boolean">Boolean</label>
+          </div>
+          <div class="input">
+            <select id="boolean" name="boolean" required>
+              <option value="">--Choose Boolean--</option>
+              <option value="true">True</option>
+              <option value="false">False</option>
+            </select>
+          </div>
+        </div>
+        <br />
+        <button
+          type="submit"
+          class="add"
+          value="Save"
+        >
+          Tambah data
+        </button>
+        <!-- Tutup boolean -->
+      </form>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,23 @@
+[
+   {
+      "string": "asdasda",
+      "integer": 2,
+      "float": 0.005,
+      "date": "2022-10-11",
+      "boolean": true
+   },
+   {
+      "string": "asdasdaasdasdasdasda",
+      "integer": 3,
+      "float": 0.02,
+      "date": "2022-10-21",
+      "boolean": true
+   },
+   {
+      "string": "aa",
+      "integer": 4,
+      "float": 0.03,
+      "date": "2022-10-05",
+      "boolean": false
+   }
+]
